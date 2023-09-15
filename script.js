@@ -19,8 +19,6 @@ function init(){
             }
         }
     }
-
-    // console.log(`Good game, ${name}! Your total par was: ${putts-par}`);
 }
 
 init();
