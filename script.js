@@ -7,7 +7,6 @@ function init(){
     console.log({par, numHoles})
     for (let i = 0; i < numHoles; i++) {
         putts += Number(prompt(`How many putts for hole ${i+1}? (par is ${par})`));
-        console.log({putts})
         // The last hole
         if (i + 1 === numHoles) {
             if (putts > par) {
